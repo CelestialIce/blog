@@ -1,0 +1,47 @@
+menu:
+  - name: home
+    url: /
+  - name: archives
+    url: /archives
+  - name: about
+    url: /about
+  - name: friend
+    url: /friend
+
+subtitle:
+  typing:
+    enable: true
+    strings:
+      - 记录开发、写作和折腾
+      - Powered by Hexo Theme Reimu
+    typeSpeed: 80
+    backSpeed: 40
+    backDelay: 1800
+    startDelay: 300
+    loop: true
+    shuffle: true
+
+avatar: avatar.webp
+
+social:
+  github: https://github.com/CelestialIce
+
+widgets:
+  - recent_posts
+  - archive
+  - tagcloud
+
+footer:
+  since: 2026
+  powered: true
+  count: true
+  busuanzi: false
+
+generator_search:
+  enable: true
+
+sidebar:
+  position: right
+  menu: true
+  article:
+    show_common: true
